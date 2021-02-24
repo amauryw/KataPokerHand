@@ -1,3 +1,3 @@
-export const main = () => {
-  console.log("🌲 Hello World 🍏");
+export const main = (args: any[]) => {
+  console.log("🌲 Hello World 🍏", { args });
 };
